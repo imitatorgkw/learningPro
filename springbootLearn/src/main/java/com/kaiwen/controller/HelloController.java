@@ -23,4 +23,9 @@ public class HelloController {
         return "test1";
     }
 
+    @RequestMapping("/")
+    public String go(){
+        return "test1";
+    }
+
 }
